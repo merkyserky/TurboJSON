@@ -2,5 +2,20 @@
   "id": "BetterJSONTools",
   "name": "Better JSON Tools",
   "description": "Advanced JSON parsing and manipulation.",
-  "javascriptURL": "https://yourusername.github.io/your-repo/extension.js"
+  "javascriptURL": "https://merkyserky.github.io/TurboJSON/extension.js",
+  "blocks": [
+    {
+      "opcode": "parseJSON",
+      "blockType": "reporter",
+      "text": "parse JSON [JSON_TEXT]",
+      "arguments": {
+        "JSON_TEXT": {
+          "type": "string",
+          "defaultValue": "{\"hello\":\"world\"}"
+        }
+      }
+    }
+    // Add other blocks here...
+  ],
+  "menus": {}
 }
